@@ -1,0 +1,29 @@
+
+Report on the Neural Network Model
+
+1.Overview of the analysis:
+
+The goal of the analysis is to use the data to identify which organizations applying for funding from the Alphabet Soup foundation are most likely to be successful in their ventures, so that the foundation can make informed decisions about which applicants to support. In other words, the objective is to predict the likelihood of success for each organization based on the information we have.
+
+2.Results:
+
+#Data Preprocessing
+
+What variable(s) are the target(s) for your model?
+'IS_SUCCESSFUL'
+
+What variable(s) are the features for your model?
+'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION','USE_CASE', 'ORGANIZATION', 'INCOME_AMT', and 'SPECIAL_CONSIDERATIONS'
+
+What variable(s) should be removed from the input data because they are neither targets nor features?
+'EIN' and 'NAME'
+
+#Compiling, Training, and Evaluating the Model
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+    
+Were you able to achieve the target model performance?
+The model was able to achieve only 72.57% Accuracy.
+
+What steps did you take in your attempts to increase model performance?
+An addition hidden layer was added and the number of Epochs were increased to 200 and the Activation function was changed to try increase the performance of the model.
